@@ -2,8 +2,14 @@
   "name": "tstl-result",
   "version": "0.0.1",
   "description": "Fork and adaptation of neverthrow for use in typescript-to-lua",
-  "main": "src/index.ts",
+  "main": "./dist/index",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*.lua",
+    "dist/**/*.d.ts"
+  ],
   "scripts": {
+    "build": "tstl && rm ./dist/lualib_bundle.lua",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

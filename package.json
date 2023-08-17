@@ -1,0 +1,24 @@
+{
+  "name": "tstl-result",
+  "version": "0.0.1",
+  "description": "Fork and adaptation of neverthrow for use in typescript-to-lua",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "codethread",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.0",
+    "@types/node": "^18.16.1",
+    "lua-types": "^2.13.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "typescript-to-lua": "^1.17.0"
+  },
+  "packageManager": "yarn@3.6.0",
+  "volta": {
+    "node": "18.16.1"
+  }
+}

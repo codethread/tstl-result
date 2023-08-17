@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    "types": ["@gkzhb/lua-types-nvim", "lua-types/5.1"],
+    "outDir": "dist",
+    "baseUrl": "src",
+    "declaration": true
+  },
+  "include": ["src/**/*"],
+  "tstl": {
+    "buildMode": "library",
+    "noImplicitSelf": true,
+    "luaTarget": "JIT"
+  }
+}

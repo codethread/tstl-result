@@ -1,5 +1,5 @@
 {
-  "name": "tstl-result",
+  "name": "@codethread/tstl-result",
   "version": "0.0.1",
   "description": "Fork and adaptation of neverthrow for use in typescript-to-lua",
   "main": "./dist/index",

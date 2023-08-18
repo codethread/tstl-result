@@ -12,7 +12,11 @@
     "build": "tstl && rm ./dist/lualib_bundle.lua",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript-to-lua",
+    "tstl",
+    "result"
+  ],
   "author": "codethread",
   "license": "MIT",
   "devDependencies": {

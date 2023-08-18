@@ -9,8 +9,17 @@
     "dist/**/*.d.ts"
   ],
   "scripts": {
+    "------------main stuff--": "",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tstl && rm ./dist/lualib_bundle.lua",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "------------publish--": "",
+    "publish": "npm publish --dry-run",
+    "publish-real": "npm publish",
+    "publish-first-time": "npm publish --access public",
+    "------------version--": "simple aliases for versioning, these will also tag the repo. Run these before publishing, and familiarise yourself with semantic versioning",
+    "version-patch": "yarn build && npm version patch",
+    "version-minor": "yarn build && npm version minor",
+    "version-major": "yarn build && npm version major"
   },
   "keywords": [
     "typescript-to-lua",
